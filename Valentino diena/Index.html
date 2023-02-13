@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Valentino diena</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kavoon&family=Lobster&family=Lobster+Two&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="manoh1">Su Valentino diena!</h1>
+        <p id="manop">
+            Meilės burtai stebuklingi,<br>
+          O jos pančiai taip svajingi.<br>
+             Dėki ranką prie širdies -<br>
+                 Mūsų meilę ji tuksės.
+        </p>
+        <button onclick="fonas();">Love</button>
+        <script>
+            
+            function fonas(){
+        document.body.style.backgroundImage = 'url(heart.png)';
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.getElementById('manoh1').style.fontFamily = 'Dancing Script';
+            document.getElementById('manoh1').style.color = 'darkviolet';
+            document.getElementById('manop').style.fontFamily = 'Montserrat';
+            document.getElementById('manop').style.color = 'black';
+            }
+        </script>
+    </body>
+</html>
